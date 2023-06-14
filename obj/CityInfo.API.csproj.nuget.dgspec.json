@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -53,9 +57,21 @@
               "target": "Package",
               "version": "[6.0.16, )"
             },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "serilog.sinks.console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "serilog.sinks.file": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

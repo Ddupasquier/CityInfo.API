@@ -8,32 +8,38 @@ namespace CityInfo.API.Controllers
     [ApiController]
     public class FilesController : ControllerBase
     {
+
         private readonly FileExtensionContentTypeProvider _fileExtensionContentTypeProvider;
 
-        public FilesController(FileExtensionContentTypeProvider fileExtensionContentTypeProvider)
+        public FilesController(
+            FileExtensionContentTypeProvider fileExtensionContentTypeProvider)
         {
             _fileExtensionContentTypeProvider = fileExtensionContentTypeProvider
-                ?? throw new System.ArgumentException(nameof(fileExtensionContentTypeProvider));
+                ?? throw new System.ArgumentNullException(
+                    nameof(fileExtensionContentTypeProvider));
         }
 
         [HttpGet("{fileId}")]
         public ActionResult GetFile(string fileId)
         {
-            var filePath = "creating-the-api-and-returning-resources-slides.pdf";
+            // look up the actual file, depending on the fileId...
+            // demo code
+            var pathToFile = "creating-the-api-and-returning-resources-slides.pdf";
 
-            if (!System.IO.File.Exists(filePath))
+            // check whether the file exists
+            if (!System.IO.File.Exists(pathToFile))
             {
                 return NotFound();
             }
 
-            if (!_fileExtensionContentTypeProvider.TryGetContentType(filePath, out var contentType))
+            if (!_fileExtensionContentTypeProvider.TryGetContentType(
+                pathToFile, out var contentType))
             {
                 contentType = "application/octet-stream";
             }
 
-            var bytes = System.IO.File.ReadAllBytes(filePath);
-
-            return File(bytes, contentType, Path.GetFileName(filePath));
+            var bytes = System.IO.File.ReadAllBytes(pathToFile);
+            return File(bytes, contentType, Path.GetFileName(pathToFile));
         }
     }
 }
