@@ -1,0 +1,115 @@
+2023-06-16 07:47:03.230 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-16 07:47:03.347 -07:00 [DBG] Hosting starting
+2023-06-16 07:47:03.471 -07:00 [INF] Now listening on: http://localhost:7148
+2023-06-16 07:47:03.472 -07:00 [INF] Now listening on: http://localhost:5260
+2023-06-16 07:47:03.473 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-06-16 07:47:03.473 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-16 07:47:03.474 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-16 07:47:03.475 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-16 07:47:03.477 -07:00 [INF] Hosting environment: Development
+2023-06-16 07:47:03.478 -07:00 [INF] Content root path: C:\Users\DylanDupasquier\source\repos\CityInfo.API\
+2023-06-16 07:47:03.478 -07:00 [DBG] Hosting started
+2023-06-16 07:47:03.550 -07:00 [DBG] Connection id "0HMREF2682OOJ" accepted.
+2023-06-16 07:47:03.550 -07:00 [DBG] Connection id "0HMREF2682OOK" accepted.
+2023-06-16 07:47:03.552 -07:00 [DBG] Connection id "0HMREF2682OOK" started.
+2023-06-16 07:47:03.552 -07:00 [DBG] Connection id "0HMREF2682OOJ" started.
+2023-06-16 07:47:05.352 -07:00 [DBG] Connection id "0HMREF2682OOL" accepted.
+2023-06-16 07:47:05.379 -07:00 [DBG] Connection id "0HMREF2682OOL" started.
+2023-06-16 07:47:05.382 -07:00 [DBG] Connection id "0HMREF2682OOM" accepted.
+2023-06-16 07:47:05.392 -07:00 [DBG] Connection id "0HMREF2682OOM" started.
+2023-06-16 07:47:05.468 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/index.html - -
+2023-06-16 07:47:05.535 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-16 07:47:05.780 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-16 07:47:05.941 -07:00 [DBG] Connection id "0HMREF2682OON" accepted.
+2023-06-16 07:47:05.943 -07:00 [DBG] Connection id "0HMREF2682OON" started.
+2023-06-16 07:47:05.947 -07:00 [DBG] Connection id "0HMREF2682OOO" accepted.
+2023-06-16 07:47:05.947 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/swagger-ui.css - -
+2023-06-16 07:47:05.948 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/swagger-ui-bundle.js - -
+2023-06-16 07:47:05.949 -07:00 [DBG] Connection id "0HMREF2682OOO" started.
+2023-06-16 07:47:05.950 -07:00 [DBG] Connection id "0HMREF2682OOP" accepted.
+2023-06-16 07:47:05.952 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/swagger-ui-standalone-preset.js - -
+2023-06-16 07:47:05.955 -07:00 [DBG] Connection id "0HMREF2682OOP" started.
+2023-06-16 07:47:05.961 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/_framework/aspnetcore-browser-refresh.js - -
+2023-06-16 07:47:05.961 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-16 07:47:05.962 -07:00 [DBG] Connection id "0HMREF2682OOM" completed keep alive response.
+2023-06-16 07:47:05.966 -07:00 [DBG] Connection id "0HMREF2682OOP" completed keep alive response.
+2023-06-16 07:47:05.983 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 21.1429ms
+2023-06-16 07:47:05.983 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/index.html - - - 200 - text/html;charset=utf-8 524.6538ms
+2023-06-16 07:47:06.016 -07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-16 07:47:06.016 -07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-16 07:47:06.016 -07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-16 07:47:06.018 -07:00 [DBG] Connection id "0HMREF2682OOL" completed keep alive response.
+2023-06-16 07:47:06.019 -07:00 [DBG] Connection id "0HMREF2682OOO" completed keep alive response.
+2023-06-16 07:47:06.020 -07:00 [DBG] Connection id "0HMREF2682OON" completed keep alive response.
+2023-06-16 07:47:06.021 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/swagger-ui.css - - - 200 143632 text/css 73.7672ms
+2023-06-16 07:47:06.022 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 69.7527ms
+2023-06-16 07:47:06.022 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 74.6096ms
+2023-06-16 07:47:06.071 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/_vs/browserLink - -
+2023-06-16 07:47:06.131 -07:00 [DBG] Connection id "0HMREF2682OOO" completed keep alive response.
+2023-06-16 07:47:06.132 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.4647ms
+2023-06-16 07:47:06.230 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/v1/swagger.json - -
+2023-06-16 07:47:06.250 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/favicon-32x32.png - -
+2023-06-16 07:47:06.253 -07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-16 07:47:06.258 -07:00 [DBG] Connection id "0HMREF2682OON" completed keep alive response.
+2023-06-16 07:47:06.262 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/favicon-32x32.png - - - 200 628 image/png 11.4555ms
+2023-06-16 07:47:06.385 -07:00 [DBG] Connection id "0HMREF2682OOO" completed keep alive response.
+2023-06-16 07:47:06.386 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.2684ms
+2023-06-16 07:47:25.848 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-16 07:47:25.906 -07:00 [DBG] Hosting starting
+2023-06-16 07:47:25.945 -07:00 [INF] Now listening on: http://localhost:7148
+2023-06-16 07:47:25.948 -07:00 [INF] Now listening on: http://localhost:5260
+2023-06-16 07:47:25.948 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-06-16 07:47:25.949 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-16 07:47:25.949 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-16 07:47:25.950 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-16 07:47:25.951 -07:00 [INF] Hosting environment: Development
+2023-06-16 07:47:25.951 -07:00 [INF] Content root path: C:\Users\DylanDupasquier\source\repos\CityInfo.API\
+2023-06-16 07:47:25.952 -07:00 [DBG] Hosting started
+2023-06-16 07:47:26.087 -07:00 [DBG] Connection id "0HMREF2CV0UHE" accepted.
+2023-06-16 07:47:26.090 -07:00 [DBG] Connection id "0HMREF2CV0UHE" started.
+2023-06-16 07:47:26.093 -07:00 [DBG] Connection id "0HMREF2CV0UHF" accepted.
+2023-06-16 07:47:26.094 -07:00 [DBG] Connection id "0HMREF2CV0UHF" started.
+2023-06-16 07:47:26.130 -07:00 [DBG] Connection id "0HMREF2CV0UHF" received FIN.
+2023-06-16 07:47:26.130 -07:00 [DBG] Connection id "0HMREF2CV0UHE" received FIN.
+2023-06-16 07:47:26.135 -07:00 [DBG] Connection id "0HMREF2CV0UHE" disconnecting.
+2023-06-16 07:47:26.136 -07:00 [DBG] Connection id "0HMREF2CV0UHF" sending FIN because: "The client closed the connection."
+2023-06-16 07:47:26.137 -07:00 [DBG] Connection id "0HMREF2CV0UHE" sending FIN because: "The client closed the connection."
+2023-06-16 07:47:26.138 -07:00 [DBG] Connection id "0HMREF2CV0UHF" disconnecting.
+2023-06-16 07:47:26.140 -07:00 [DBG] Connection id "0HMREF2CV0UHE" stopped.
+2023-06-16 07:47:26.141 -07:00 [DBG] Connection id "0HMREF2CV0UHF" stopped.
+2023-06-16 07:50:18.783 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-16 07:50:18.884 -07:00 [DBG] Hosting starting
+2023-06-16 07:50:18.985 -07:00 [INF] Now listening on: http://localhost:7148
+2023-06-16 07:50:18.986 -07:00 [INF] Now listening on: http://localhost:5260
+2023-06-16 07:50:18.986 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2023-06-16 07:50:18.987 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-16 07:50:18.988 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-16 07:50:18.989 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-16 07:50:18.990 -07:00 [INF] Hosting environment: Development
+2023-06-16 07:50:18.990 -07:00 [INF] Content root path: C:\Users\DylanDupasquier\source\repos\CityInfo.API\
+2023-06-16 07:50:18.991 -07:00 [DBG] Hosting started
+2023-06-16 07:50:19.126 -07:00 [DBG] Connection id "0HMREF40H831T" received FIN.
+2023-06-16 07:50:19.128 -07:00 [DBG] Connection id "0HMREF40H831T" accepted.
+2023-06-16 07:50:19.130 -07:00 [DBG] Connection id "0HMREF40H831T" started.
+2023-06-16 07:50:19.141 -07:00 [DBG] Connection id "0HMREF40H831T" sending FIN because: "The client closed the connection."
+2023-06-16 07:50:19.144 -07:00 [DBG] Connection id "0HMREF40H831T" disconnecting.
+2023-06-16 07:50:19.149 -07:00 [DBG] Connection id "0HMREF40H831T" stopped.
+2023-06-16 07:50:19.340 -07:00 [DBG] Connection id "0HMREF40H831U" accepted.
+2023-06-16 07:50:19.352 -07:00 [DBG] Connection id "0HMREF40H831U" started.
+2023-06-16 07:50:19.362 -07:00 [DBG] Connection id "0HMREF40H831V" accepted.
+2023-06-16 07:50:19.380 -07:00 [DBG] Connection id "0HMREF40H831V" started.
+2023-06-16 07:50:19.408 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/index.html - -
+2023-06-16 07:50:19.478 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-16 07:50:19.699 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-16 07:50:19.817 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/_framework/aspnetcore-browser-refresh.js - -
+2023-06-16 07:50:19.822 -07:00 [DBG] Connection id "0HMREF40H831V" completed keep alive response.
+2023-06-16 07:50:19.823 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-16 07:50:19.824 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.9600ms
+2023-06-16 07:50:19.824 -07:00 [DBG] Connection id "0HMREF40H831U" completed keep alive response.
+2023-06-16 07:50:19.835 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/index.html - - - 200 - text/html;charset=utf-8 436.6511ms
+2023-06-16 07:50:19.918 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/_vs/browserLink - -
+2023-06-16 07:50:19.947 -07:00 [DBG] Connection id "0HMREF40H831U" completed keep alive response.
+2023-06-16 07:50:19.950 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.6017ms
+2023-06-16 07:50:20.181 -07:00 [INF] Request starting HTTP/1.1 GET http://localhost:7148/swagger/v1/swagger.json - -
+2023-06-16 07:50:20.326 -07:00 [DBG] Connection id "0HMREF40H831U" completed keep alive response.
+2023-06-16 07:50:20.329 -07:00 [INF] Request finished HTTP/1.1 GET http://localhost:7148/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.9774ms
