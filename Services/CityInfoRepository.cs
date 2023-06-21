@@ -6,23 +6,6 @@ namespace CityInfo.API.Services
 {
     public class CityInfoRepository : ICityInfoRepository
     {
-
-
-        /*public Task AddPointOfInterestForCityAsync(int cityId, PointOfInterest pointOfInterest)
-{
-throw new NotImplementedException();
-}
-
-public Task<bool> CityExistsAsync(int cityId)
-{
-throw new NotImplementedException();
-}
-
-public void DeletePointOfInterest(PointOfInterest pointOfInterest)
-{
-throw new NotImplementedException();
-}*/
-
         private readonly CityInfoContext _context;
 
         public CityInfoRepository(CityInfoContext context)
@@ -37,6 +20,20 @@ throw new NotImplementedException();
             return await _context.Cities.OrderBy(c => c.Name).ToListAsync();
         }
 
+        public async Task<IEnumerable<City>> GetCitiesAsync(string? name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                return await GetCitiesAsync();
+            }
+
+            name = name.Trim();
+            return await _context.Cities
+                .Where(c => c.Name == name)
+                .OrderBy(c => c.Name)
+                .ToListAsync();
+        }
+
         public async Task<City?> GetCityAsync(int cityId, bool includePointsOfInterest)
         {
             if (includePointsOfInterest)
@@ -45,6 +42,11 @@ throw new NotImplementedException();
             }
 
             return await _context.Cities.Where(c => c.Id == cityId).FirstOrDefaultAsync();
+        }
+
+        public async Task<bool> CityExistsAsync(int cityId)
+        {
+            return await _context.Cities.AnyAsync(c => c.Id == cityId);
         }
 
         public async Task<PointOfInterest?> GetPointOfInterestForCityAsync(
@@ -60,12 +62,26 @@ throw new NotImplementedException();
             int cityId)
         {
             return await _context.PointsOfInterest
-                           .Where(p => p.CityId == cityId).ToListAsync();
+                           .Where(p => p.CityId == cityId)
+                           .ToListAsync();
         }
 
-        public Task<bool> SaveChangesAsync()
+        public async Task AddPointOfInterestForCityAsync(int cityId, PointOfInterest pointOfInterest)
         {
-            throw new NotImplementedException();
+            var city = await GetCityAsync(cityId, false);
+            city?.PointsOfInterest.Add(pointOfInterest);
         }
+
+        public void DeletePointOfInterest(PointOfInterest pointOfInterest)
+        {
+            _context.PointsOfInterest.Remove(pointOfInterest);
+        }
+
+        public async Task<bool> SaveChangesAsync()
+        {
+            return (await _context.SaveChangesAsync() >= 0);
+        }
+
+
     }
 }

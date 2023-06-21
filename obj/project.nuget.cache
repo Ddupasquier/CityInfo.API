@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5FzYEE4CluRHTvUjLK7EIYarQIzWu3iQ/lnIBsiII9qODCU0KJ+EtfsCowe0YEDQah2R1uw7z2uQdpn/wd2bcQ==",
+  "dgSpecHash": "lMlRxze/Fj6+XWz3HdtZf6TMBf9D/OGug+Hs3tgIHKgSAoM1/kIzj8N95sZzLHddXor7x8uhdpF/Q+fhK/n1HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\DylanDupasquier\\source\\repos\\CityInfo.API\\CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DylanDupasquier\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\DylanDupasquier\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\DylanDupasquier\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",
     "C:\\Users\\DylanDupasquier\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DylanDupasquier\\.nuget\\packages\\mailkit\\4.0.0\\mailkit.4.0.0.nupkg.sha512",
